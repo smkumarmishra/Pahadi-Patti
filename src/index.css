@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-heading font-sans;
+    background-image: radial-gradient(circle at top left, rgba(229,173,102,0.18), transparent 30%), radial-gradient(circle at bottom right, rgba(144,85,43,0.14), transparent 28%);
+  }
+  h1,h2,h3,h4 {
+    color: #5A401E;
+  }
+}
+
+.container-max { @apply max-w-6xl mx-auto px-4; }
